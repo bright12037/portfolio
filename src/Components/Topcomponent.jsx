@@ -89,6 +89,13 @@ const Topcomponent = () => {
                 </div>
             </div>
         </div>
+
+
+        <div>
+            <div className='md:mx-12 lg:mx-20 mx-5'>
+              <h1 className='font-black text-2xl text-center'> Latest Work</h1>
+            </div>
+        </div>
     </div>
   )
 }
