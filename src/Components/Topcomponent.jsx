@@ -6,6 +6,10 @@ import pfpic from '../images/myimg.jpg'
 import { useState } from 'react'
 import { RxDragHandleHorizontal } from "react-icons/rx";
 
+import imghtml from '../images/html.png'
+import imgcss from '../images/css.webp'
+import imgnj from '../images/nodejs.jpeg'
+
 const Topcomponent = () => {
 
     const[Show,setShow] = useState(false)
@@ -22,7 +26,7 @@ const Topcomponent = () => {
           <h1 className='font-black text-xl cursor-pointer'>Logo</h1>
           <div className='ml-auto font-medium relative'>
               <p onClick={shownav} className='lg:hidden md:hidden text-4xl font-black'><RxDragHandleHorizontal /></p>
-                {Show===true ? '': (<div className='gap-4 md:hidden lg:hidden absolute top-8 py-1 right bg-slate-200 px-1'>
+                {Show===false ? '': (<div className='gap-4 md:hidden lg:hidden absolute top-8 py-1 right bg-slate-200 px-1'>
                 <p className='pb-8 underline pr-8 cursor-pointer pt-4'>About</p>
                 <p className='pb-8 underline pr-8 '>Work</p>
                 <p className='pb-4 underline pr-8 '>Contact</p>
@@ -36,7 +40,7 @@ const Topcomponent = () => {
         </nav>
       </div> 
         <div className='TopSEction'>
-        <div className='px-10 lg:hidden md:hidden pt-10 h-screen'>
+        <div className='px-10 lg:hidden md:hidden pt-10 h-3/4'>
               <div className='flex items-center pb-2'>
                 <div>
                 <p className='font-semibold text-sm'><span className='pr-1 border-r-2 border-solid border-black'>FrontEnd</span><span className='pl-1'>BackEnd</span></p>
@@ -50,7 +54,7 @@ const Topcomponent = () => {
                 <button className='bg-black text-white text-sm py-2 px-2 mt-1 rounded-lg'>Contact</button>
         </div>
 
-        <div className='hidden px-10 lg:flex md:flex pt-10 lg:px-32 md:px-16 h-screen bg-grey-600'>
+        <div className='hidden px-10 lg:flex md:flex pt-10 lg:px-32 md:px-16 h-3/4 bg-grey-600'>
               <div className='mb-4'>
                 <p className='font-semibold text-lg'><span className='pr-1 border-r-2 border-solid border-black'>FrontEnd</span><span className='pl-1'>BackEnd</span></p>
                 <h1 className='text-2xl py-3 lg:text-6xl md:text-4xl md:py-4 lg:py-6 font-semibold'>Software Developer</h1>
@@ -64,7 +68,27 @@ const Topcomponent = () => {
         </div>
         </div>
 
-        <div>.....</div>
+        <div className='SECTION2'>
+            <div className='mx-5 lg:flex md:flex lg:gap-20 md-gap-20 justify-center pt-16  md:mx-12 lg:mx-20 text-center'>
+                <div className='flex flex-col items-center'>
+                    <Image className='h-24 w-24 lg:h-44 lg:w-44 md:w-44 md:h-44 overflow-hidden rounded-lg' src={imghtml} />
+                    <h1 className='font-bold text-xl py-3'>HTML</h1>
+                    <p className='text-sm font-semibold pb-4'>This is a template figma turned into coding using anima  align learn more at anima.com</p>
+                </div>
+
+                <div className='flex flex-col items-center'>
+                <Image className='h-24 w-24 lg:h-44 lg:w-44 md:w-44 md:h-44 overflow-hidden rounded-lg' src={imgcss} />
+                <h1 className='font-bold text-xl py-3'>CSS</h1>
+                <p className='text-sm font-semibold'>This is a template figma turned into coding using anima learn more at anima.com</p>
+                </div>
+
+                <div className='flex flex-col items-center'>
+                <Image className='h-24 w-24 lg:h-44 lg:w-44 md:w-44 md:h-44 overflow-hidden rounded-lg' src={imgnj} />
+                <h1 className='font-bold text-xl py-3'>NodeJS</h1>
+                <p className='text-sm font-semibold'>This is a template figma turned into coding using anima learn more at anima.com</p>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
