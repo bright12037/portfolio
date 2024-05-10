@@ -22,10 +22,10 @@ const Topcomponent = () => {
           <h1 className='font-black text-xl cursor-pointer'>Logo</h1>
           <div className='ml-auto font-medium relative'>
               <p onClick={shownav} className='lg:hidden md:hidden text-4xl font-black'><RxDragHandleHorizontal /></p>
-                {Show===false ? '': (<div className='gap-4 md:hidden lg:hidden absolute top-7 py-1 right bg-slate-200 px-1'>
-                <p className='cursor-pointer hover:border-blue-500'>About</p>
-                <p>Work</p>
-                <p>Contact</p>
+                {Show===true ? '': (<div className='gap-4 md:hidden lg:hidden absolute top-8 py-1 right bg-slate-200 px-1'>
+                <p className='pb-8 underline pr-8 cursor-pointer pt-4'>About</p>
+                <p className='pb-8 underline pr-8 '>Work</p>
+                <p className='pb-4 underline pr-8 '>Contact</p>
               </div>)}
               <div className='hidden gap-4 md:flex lg:flex absolute top-4 py-1 right-1'>
                 <p className='cursor-pointer underline hover:border-blue-500'>About</p>
