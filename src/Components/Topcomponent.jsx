@@ -21,7 +21,7 @@ const Topcomponent = () => {
         <nav className='flex  md:mx-12 lg:mx-20 mx-5 px-4 mt-3 rounded-lg py-5 bg-zinc-100'>
           <h1 className='font-black text-xl cursor-pointer'>Logo</h1>
           <div className='ml-auto font-medium relative'>
-              <p onClick={shownav} className='lg:hidden md:hidden text-xl font-semibold'><RxDragHandleHorizontal /></p>
+              <p onClick={shownav} className='lg:hidden md:hidden text-2xl font-black'><RxDragHandleHorizontal /></p>
                 {Show===false ? '': (<div className='gap-4 md:hidden lg:hidden absolute top-3 py-1 right-0'>
                 <p className='cursor-pointer underline hover:border-blue-500'>About</p>
                 <p>Work</p>
