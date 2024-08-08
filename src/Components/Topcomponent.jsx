@@ -10,7 +10,7 @@ import Link from 'next/link';
 import imghtml from '../images/html.png'
 import imgcss from '../images/css.webp'
 import imgnj from '../images/nodejs.jpeg'
-import img12 from '../images/tailwindcss.png'
+import img12 from '../images/tailwind.png'
 import img13 from '../images/nextjs.png'
 
 const Topcomponent = () => {
