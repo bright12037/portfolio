@@ -10,6 +10,8 @@ import Link from 'next/link';
 import imghtml from '../images/html.png'
 import imgcss from '../images/css.webp'
 import imgnj from '../images/nodejs.jpeg'
+import img12 from '../images/tailwindcss.png'
+import img13 from '../images/nextjs.png'
 
 const Topcomponent = () => {
 
@@ -89,13 +91,13 @@ const Topcomponent = () => {
                 </div>
 
                 <div className='flex flex-col items-center shadow-md mb-2'>
-                <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imgnj} alt=''/>
+                <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={img12} alt=''/>
                 <h1 className='font-bold text-xl py-3'>Tailwind</h1>
                 <p className='text-sm font-semibold'> My skills in Tailwind CSS enable me to quickly prototype and build modern, responsive user interfaces with minimal custom CSS.</p>
                 </div>
 
                 <div className='flex flex-col items-center shadow-lg mb-2'>
-                <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imgnj} alt=''/>
+                <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={img13} alt=''/>
                 <h1 className='font-bold text-xl py-3'>NextJS</h1>
                 <p className='text-sm font-semibold'>I have developed strong skills in JavaScript, with a particular focus on using the Next.js framework</p>
                 </div>
