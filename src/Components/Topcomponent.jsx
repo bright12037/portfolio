@@ -63,7 +63,7 @@ const Topcomponent = () => {
                   <div className=''>
                     <p className='font-semibold text-lg'><span className='pr-1 border-r-2 border-solid border-black'>FrontEnd</span><span className='pl-1'>BackEnd</span></p>
                     <h1 className='text-2xl py-3 lg:text-6xl md:text-4xl md:py-4 lg:py-6 font-semibold'>Software Developer</h1>
-                    <p className='text-sm md:text-lg lg:text-lg text-slate-800'>I am currently seeking an internship opportunity where I can apply <br /> and further develop my skills in web development. I am eager to <br /> work on real-world projects that will challenge me and help sharpen <br /> my expertise in technologies like JavaScript, Next.js, CSS, and more. <br /> I am enthusiastic about contributing to a team while continuing to learn <br /> and grow as a developer.</p>
+                    <p className='text-sm md:text-lg lg:text-lg text-slate-800'>I am currently seeking an internship opportunity where I can apply <br /> and further develop my skills in web development. I am eager to <br /> work on real world projects that will challenge me and help sharpen <br /> my expertise in technologies like JavaScript, Next.js, CSS, and more. <br /> I am enthusiastic about contributing to a team while continuing to learn <br /> and grow as a developer.</p>
                     <Link href="./#contact"><button className='bg-black md:py-5 md:px-5 lg:py-5 lg:py-5 text-white text-lg py-3 px-4 mt-3'>Contact</button></Link>
 
                   </div>
