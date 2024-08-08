@@ -55,16 +55,16 @@ const Topcomponent = () => {
                       <Image className='rounded-full w-auto h-auto max-w-full max-h-full' src={pfpic} alt='mypic' />
                     </div>
                 </div>
-                <p className='text-sm text-slate-800'>This is a template figma turned into coding using anima learn more at anima.com</p>
-                <button className='bg-black text-white text-sm py-2 px-2 mt-1 rounded-lg'>Contact</button>
+                <p className='text-sm text-slate-800'>I am currently seeking an internship opportunity where I can apply and further develop my skills in web development. I am eager to work on real-world projects that will challenge me and help sharpen my expertise in technologies like JavaScript, Next.js, CSS, and more. I'm enthusiastic about contributing to a team while continuing to learn and grow as a developer.</p>
+                <Link href="./#contact"><button className='bg-black text-white text-sm py-2 px-2 mt-1 rounded-lg'>Contact</button></Link>
             </div>
 
             <div className='hidden px-10 md:mx-5  lg:flex md:flex py-32 lg:px-32 md:px-16 h-3/4 bg-grey-600  md:h-3/4 md:justify-center'>
                   <div className=''>
                     <p className='font-semibold text-lg'><span className='pr-1 border-r-2 border-solid border-black'>FrontEnd</span><span className='pl-1'>BackEnd</span></p>
                     <h1 className='text-2xl py-3 lg:text-6xl md:text-4xl md:py-4 lg:py-6 font-semibold'>Software Developer</h1>
-                    <p className='text-sm md:text-lg lg:text-lg text-slate-800'>This is a template figma turned into coding using anima <br></br> learn more at anima.com</p>
-                    <button className='bg-black md:py-5 md:px-5 lg:py-5 lg:py-5 text-white text-lg py-3 px-4 mt-3'>Contact</button>
+                    <p className='text-sm md:text-lg lg:text-lg text-slate-800'>I am currently seeking an internship opportunity where I can apply <br /> and further develop my skills in web development. I am eager to <br /> work on real-world projects that will challenge me and help sharpen <br /> my expertise in technologies like JavaScript, Next.js, CSS, and more. <br /> I'm enthusiastic about contributing to a team while continuing to learn <br /> and grow as a developer.</p>
+                    <Link href="./#contact"><button className='bg-black md:py-5 md:px-5 lg:py-5 lg:py-5 text-white text-lg py-3 px-4 mt-3'>Contact</button></Link>
 
                   </div>
                   <div className='ml-auto rounded-lg overflow-hidden'>
@@ -79,25 +79,25 @@ const Topcomponent = () => {
                 <div className='flex flex-col items-center shadow-md mb-2'>
                     <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imghtml} alt=''/>
                     <h1 className='font-bold text-xl py-3'>HTML</h1>
-                    <p className='text-sm font-semibold pb-4'>This is a template figma turned into coding using anima  align learn more at anima.com</p>
+                    <p className='text-sm font-semibold pb-4'>My experience includes creating well-structured, accessible, and semantically correct web pages that are optimized for search engines.</p>
                 </div>
 
                 <div className='flex flex-col items-center shadow-md mb-2'>
                 <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imgcss} alt='' />
                 <h1 className='font-bold text-xl py-3'>CSS</h1>
-                <p className='text-sm font-semibold'>This is a template figma turned into coding using anima learn more at anima.com</p>
+                <p className='text-sm font-semibold'>I am proficient in creating responsive <br/> designs that enhance user experience across various devices, using advanced techniques like Flexbox, Grid, and animations.</p>
                 </div>
 
                 <div className='flex flex-col items-center shadow-md mb-2'>
                 <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imgnj} alt=''/>
                 <h1 className='font-bold text-xl py-3'>Tailwind</h1>
-                <p className='text-sm font-semibold'>This is a template figma turned into coding using anima learn more at anima.com</p>
+                <p className='text-sm font-semibold'> My skills in Tailwind CSS enable me to quickly prototype and build modern, responsive user interfaces with minimal custom CSS.</p>
                 </div>
 
                 <div className='flex flex-col items-center shadow-lg mb-2'>
                 <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imgnj} alt=''/>
                 <h1 className='font-bold text-xl py-3'>NextJS</h1>
-                <p className='text-sm font-semibold'>This is a template figma turned into coding using anima learn more at anima.com</p>
+                <p className='text-sm font-semibold'>I have developed strong skills in JavaScript, with a particular focus on using the Next.js framework</p>
                 </div>
             </div>
         </div>
