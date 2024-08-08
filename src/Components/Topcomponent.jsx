@@ -79,7 +79,7 @@ const Topcomponent = () => {
                 <div className='flex flex-col items-center shadow-md mb-2'>
                     <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imghtml} alt=''/>
                     <h1 className='font-bold text-xl py-3'>HTML</h1>
-                    <p className='text-sm font-semibold pb-4'>My experience includes creating well-structured, accessible, and semantically correct web pages that are optimized for search engines.</p>
+                    <p className='text-sm font-semibold pb-4'>My experience includes creating well structured, accessible, and semantically correct web pages that are optimized for search engines.</p>
                 </div>
 
                 <div className='flex flex-col items-center shadow-md mb-2'>
