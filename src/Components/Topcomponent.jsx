@@ -55,7 +55,7 @@ const Topcomponent = () => {
                       <Image className='rounded-full w-auto h-auto max-w-full max-h-full' src={pfpic} alt='mypic' />
                     </div>
                 </div>
-                <p className='text-sm text-slate-800'>I am currently seeking an internship opportunity where I can apply and further develop my skills in web development. I am eager to work on real-world projects that will challenge me and help sharpen my expertise in technologies like JavaScript, Next.js, CSS, and more. I am enthusiastic about contributing to a team while continuing to learn and grow as a developer.</p>
+                <p className='text-sm text-slate-800'>I am currently seeking an internship opportunity where I can apply and further develop my skills in web development. I am eager to work on real world projects that will challenge me and help sharpen my expertise in technologies like JavaScript, Next.js, CSS, and more. I am enthusiastic about contributing to a team while continuing to learn and grow as a developer.</p>
                 <Link href="./#contact"><button className='bg-black text-white text-sm py-2 px-2 mt-1 rounded-lg'>Contact</button></Link>
             </div>
 
