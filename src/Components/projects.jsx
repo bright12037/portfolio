@@ -18,11 +18,14 @@ const Projects = () => {
                             <Image src={img2} alt='KLasdahsboard' className='w-full h-full object-cover rounded-md' objectFit="fit" />
                         </div>
                         <div className='flex-1 py-2'>
-                            <h1 className='text-2xl font-bold text-slate-700'>Klas Clone(Web Pages)</h1>
-                            <p className='my-12'>I cloned the frontend of the Klas webpages using Tailwind CSS and
-                                JavaScript for the UI design.
-                                It was a great experience to build the entire frontend.</p>
-                            <Link href="https://klas2-bright12037s-projects.vercel.app/" target="_blank" rel="noopener noreferrer"> <button className='px-8 text-white py-2 rounded-lg text-xl font-bold bg-slate-800 transition duration-300 ease-in-out transform hover:bg-blue-700 hover:scale-105'>VISIT</button></Link>
+                            <h1 className='text-2xl font-bold text-slate-700'>Gomas Oil LTD</h1>
+                            <p className='my-12'>Designing and developing a modern, responsive website for my previous company using Next.js,
+                                 Tailwind CSS, and JavaScript. The project involved creating a
+                                  user-friendly interface, optimizing performance, and
+                                   ensuring seamless navigation to enhance the companys online presence. This project not
+                                    only sharpened my web development skills but also demonstrated my ability to deliver 
+                                    functional and aesthetically pleasing solutions.</p>
+                            <Link href="https://gomas-ltd.vercel.app/" target="_blank" rel="noopener noreferrer"> <button className='px-8 text-white py-2 rounded-lg text-xl font-bold bg-slate-800 transition duration-300 ease-in-out transform hover:bg-blue-700 hover:scale-105'>VISIT</button></Link>
                         </div>
                     </div>
 
