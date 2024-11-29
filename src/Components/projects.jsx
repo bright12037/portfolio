@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import img1 from '../images/klashdash.PNG'
-import img2 from '../images/Klashomepage.PNG'
+import img2 from '../images/gomasoil.PNG'
 import Link from 'next/link'
 
 
