@@ -15,11 +15,11 @@ const Projects = () => {
                 <div className='mt-10'>
                     <div className='flex transform gap-10 border-md bg-zinc-100 p-4 rounded-md h-[50vh] '>
                         <div className='flex-1'>
-                            <Image src={img2} alt='KLasdahsboard' className='w-full h-full object-cover rounded-md' objectFit="fit" />
+                            <Image src={img2} alt='KLasdahsboard' className='w-full h-full object-fit rounded-md' objectFit="fit" />
                         </div>
                         <div className='flex-1 py-2'>
                             <h1 className='text-2xl font-bold text-slate-700'>Gomas Oil LTD</h1>
-                            <p className='my-12'>Designing and developing a modern, responsive website for my previous company using Next.js,
+                            <p className='my-2'>Designing and developing a modern, responsive website for my previous company using Next.js,
                                  Tailwind CSS, and JavaScript. The project involved creating a
                                   user-friendly interface, optimizing performance, and
                                    ensuring seamless navigation to enhance the companys online presence. This project not
