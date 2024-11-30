@@ -55,8 +55,8 @@ const Topcomponent = () => {
         <div className='px-10 lg:hidden md:hidden pt-10 h-3/4'>
           <div className='flex items-center  pb-2'>
             <div>
-              <p className='font-semibold text-sm'><span className='pr-1 border-r-2 border-solid border-black'>FrontEnd</span><span className='pl-1'>BackEnd</span></p>
-              <h1 className='text-2xl font-semibold'>Software Developer</h1>
+              {/* <p className='font-semibold text-sm'><span className='pr-1 border-r-2 border-solid border-black'>FrontEnd</span><span className='pl-1'>BackEnd</span></p> */}
+              <h1 className='text-2xl font-semibold'>FrontEnd Developer</h1>
 
             </div>
             <div className='ml-auto overflow-hidden'>
@@ -69,8 +69,8 @@ const Topcomponent = () => {
 
         <div className='hidden px-10 md:mx-5  lg:flex md:flex py-32 lg:px-32 md:px-16 h-3/4 bg-grey-600  md:h-3/4 md:justify-center'>
           <div className=''>
-            <p className='font-semibold text-lg'><span className='pr-1 border-r-2 border-solid border-black'>FrontEnd</span><span className='pl-1'>BackEnd</span></p>
-            <h1 className='text-2xl py-3 lg:text-6xl md:text-4xl md:py-4 lg:py-6 font-semibold'>Software Developer</h1>
+            {/* <p className='font-semibold text-lg'><span className='pr-1 border-r-2 border-solid border-black'>FrontEnd</span><span className='pl-1'>BackEnd</span></p> */}
+            <h1 className='text-2xl py-3 lg:text-6xl md:text-4xl md:py-4 lg:py-6 font-semibold'>FrontEnd Developer</h1>
             <p className='text-sm md:text-lg lg:text-lg text-slate-800'>I am currently seeking an internship
                opportunity where I can apply <br />
               and further develop my skills in web development. I am eager to <br />
@@ -119,12 +119,12 @@ const Topcomponent = () => {
       <Projects />
 
       {/*============================================  contact ============================================== */}
-      <div>
+      <div className='px-4'>
         <h1 id='contact' className='text-2xl md:text-4xl font-bold text-center mt-32 mb-10'>Contact</h1>
 
         <p className='text-md text-center mb-10'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
-        <div className='flex justify-center mx-2 md:mx-72 py-6 shadow-md bg-white-700 '>
-          <form className="w-full max-w-lg">
+        <div className='flex justify-center mx-2 md:mx-24 lg:mx-72 py-6 shadow-md bg-white-700 '>
+          <form className="w-full">
             <div class="mb-5">
               <label for="text" className="text-sm pb-2 font-semibold text-sans block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
               <input type="text" id="email" className=" py-4 bg-slate-200 w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your name" required />
