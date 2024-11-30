@@ -126,15 +126,15 @@ const Topcomponent = () => {
         <div className='flex justify-center mx-2 md:mx-24 lg:mx-72 py-6 shadow-md bg-white-700 '>
           <form className="w-full">
             <div className="mb-5">
-              <label for="text" className="text-sm pb-2 font-semibold text-sans block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+              <label htmlFor="text" className="text-sm pb-2 font-semibold text-sans block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
               <input type="text" id="email" className=" py-4 bg-slate-200 w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your name" required />
             </div>
             <div className="mb-5">
-              <label for="email" className="text-sm pb-2 font-semibold text-sans block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
+              <label htmlFor="email" className="text-sm pb-2 font-semibold text-sans block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
               <input type="email" id="email" className="py-4 bg-slate-200 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your email" required />
             </div>
             <div className="mb-5">
-              <label for="text" className="text-sm pb-2 font-semibold text-sans block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
+              <label htmlFor="text" className="text-sm pb-2 font-semibold text-sans block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
               <input type="text" id="email" className="pb-32 bg-slate-200 pt-4 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your message" required />
             </div>
             <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
