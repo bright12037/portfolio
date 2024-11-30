@@ -13,9 +13,9 @@ const Projects = () => {
                 <h1 className='text-2xl font-bold text-center md:text-4xl mt-32 mb-2'>Projects</h1>
                 <p className='text-center'>Here you will find some of the personal projects i have worked on.</p>
                 <div className='mt-10'>
-                    <div className='md:flex transform gap-10 border-md bg-zinc-100 p-4 rounded-md md:h-[50vh] '>
+                    <div className='md:flex transform gap-10 border-md bg-zinc-100 p-4 rounded-md lg:h-[50vh] '>
                         <div className='md:flex-1'>
-                            <Image src={img2} alt='KLasdahsboard' className='w-full h-full object-fit rounded-md' objectFit="fit" />
+                            <Image src={img2} alt='KLasdahsboard' className='w-full h-full object-fit md:object-cover rounded-md' objectFit="fit" />
                         </div>
                         <div className='md:flex-1 py-2'>
                             <h1 className='text-xl md:text-2xl font-bold text-slate-700'>Gomas Oil LTD</h1>
