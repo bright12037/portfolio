@@ -120,9 +120,9 @@ const Topcomponent = () => {
 
       {/*============================================  contact ============================================== */}
       <div className='px-4'>
-        <h1 id='contact' className='text-2xl md:text-4xl font-bold text-center mt-32 mb-10'>Contact</h1>
+        <h1 id='contact' className='text-2xl md:text-4xl font-bold text-center mt-16 md:mt-32 mb-4 md:mb-10'>Contact</h1>
 
-        <p className='text-md text-center mb-10'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+        <p className='text-md text-center mb-4 md:mb-10'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
         <div className='flex justify-center mx-2 md:mx-24 lg:mx-72 py-6 shadow-md bg-white-700 '>
           <form className="w-full">
             <div className="mb-5">
