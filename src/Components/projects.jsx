@@ -13,7 +13,7 @@ const Projects = () => {
                 <h1 className='text-2xl font-bold text-center md:text-4xl mt-32 mb-2'>Projects</h1>
                 <p className='text-center'>Here you will find some of the personal projects i have worked on.</p>
                 <div className='mt-10'>
-                    <div className='md:flex transform gap-10 border-md bg-zinc-100 p-4 rounded-md lg:h-[50vh] '>
+                    <div className='mt-4 md:flex transform gap-10 border-md bg-zinc-100 p-4 rounded-md lg:h-[50vh] '>
                         <div className='md:flex-1'>
                             <Image src={img2} alt='KLasdahsboard' className='w-full h-full object-fit md:object-cover rounded-md' objectFit="fit" />
                         </div>
@@ -22,11 +22,11 @@ const Projects = () => {
                             <p className='my-2 md:my-2'>Designing and developing a modern, responsive
                                  website for my previous company using Next.js,
                                  Tailwind CSS, and JavaScript. The project 
-                                 involved creating a
+                                 involves creating a
                                   user-friendly interface, optimizing performance, and
                                    ensuring seamless navigation to enhance the 
                                    companys online presence. This project not
-                                    only sharpened my web development skills but also demonstrated my ability to deliver 
+                                    only sharpening my web development skills but also demonstrating my ability to deliver 
                                     functional and aesthetically pleasing solutions.</p>
                             <Link href="https://gomas-ltd.vercel.app/" target="_blank" rel="noopener noreferrer"> <button className='px-4 md:px-8 text-white py-2 rounded-lg md:text-xl font-bold bg-slate-800 transition duration-300 ease-in-out transform hover:bg-blue-700 hover:scale-105'>VISIT</button></Link>
                         </div>
