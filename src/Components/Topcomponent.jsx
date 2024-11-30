@@ -87,28 +87,28 @@ const Topcomponent = () => {
       </div>
       {/* ========================================================skills=========================================================================================== */}
       <div className='SECTION2 pt-6 mx-2 md:mx-12 lg:mx-20'>
-        <h1 id='skills' className='text-2xl font-bold text-center md:text-4xl mb-16'>My Skills</h1>
+        <h1 id='skills' className='text-2xl font-bold text-center md:text-4xl mb-4 md:mb-16'>My Skills</h1>
         <div className=' md:flex md:gap-2 justify-center  text-center'>
           <div className='flex flex-col items-center shadow-md mb-2 bg-zinc-100 transition duration-300 ease-in-out transform hover:bg-white hover:scale-105 p-4 rounded-lg'>
-            <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imghtml} alt='' />
+            <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imghtml} alt='dd' />
             <h1 className='font-bold text-xl py-3'>HTML</h1>
             <p className='text-sm font-semibold pb-4'>My experience includes creating well structured, accessible, and semantically correct web pages that are optimized for search engines.</p>
           </div>
 
           <div className='flex flex-col items-center shadow-md mb-2 bg-zinc-100 transition duration-300 ease-in-out transform hover:bg-white hover:scale-105 p-4 rounded-lg'>
-            <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imgcss} alt='' />
+            <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={imgcss} alt='dd' />
             <h1 className='font-bold text-xl py-3'>CSS</h1>
             <p className='text-sm font-semibold'>I am proficient in creating responsive <br /> designs that enhance user experience across various devices, using advanced techniques like Flexbox, Grid, and animations.</p>
           </div>
 
           <div className='flex flex-col items-center shadow-md mb-2 bg-zinc-100 transition duration-300 ease-in-out transform hover:bg-white hover:scale-105 p-4 rounded-lg'>
-            <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg object-cover' src={img12} alt='' />
+            <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg object-cover' src={img12} alt='dd' />
             <h1 className='font-bold text-xl py-3'>Tailwind</h1>
             <p className='text-sm font-semibold'> My skills in Tailwind CSS enable me to quickly prototype and build modern, responsive user interfaces with minimal custom CSS.</p>
           </div>
 
           <div className='flex flex-col items-center shadow-lg mb-2 bg-zinc-100 transition duration-300 ease-in-out transform hover:bg-white hover:scale-105 p-4 rounded-lg'>
-            <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={img13} alt='' />
+            <Image className='h-24 w-24 md:w-24 md:h-24 overflow-hidden rounded-lg' src={img13} alt='dd' />
             <h1 className='font-bold text-xl py-3'>NextJS</h1>
             <p className='text-sm font-semibold'>I have developed strong skills in JavaScript, with a particular focus on using the Next.js framework</p>
           </div>
