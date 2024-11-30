@@ -13,7 +13,7 @@ const Projects = () => {
                 <h1 className='text-2xl font-bold text-center md:text-4xl mt-32 mb-2'>Projects</h1>
                 <p className='text-center'>Here you will find some of the personal projects i have worked on.</p>
                 <div className='mt-10'>
-                    <div className='mt-4 md:flex transform gap-10 border-md bg-zinc-100 p-4 rounded-md lg:h-[50vh] '>
+                    <div className='mb-4 md:flex transform gap-10 border-md bg-zinc-100 p-4 rounded-md lg:h-[50vh] '>
                         <div className='md:flex-1'>
                             <Image src={img2} alt='KLasdahsboard' className='w-full h-full object-fit md:object-cover rounded-md' objectFit="fit" />
                         </div>
