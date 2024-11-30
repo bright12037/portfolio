@@ -5,6 +5,7 @@ import Image from 'next/image'
 import pfpic from '../images/myimg.jpg'
 import { useState } from 'react'
 import { RxDragHandleHorizontal } from "react-icons/rx";
+import { IoIosCloseCircleOutline } from "react-icons/io";
 import Link from 'next/link';
 
 import imghtml from '../images/html.png'
@@ -35,12 +36,7 @@ const Topcomponent = () => {
           <h1 className='font-black text-xl cursor-pointer'>Bright Igwe</h1>
           <div className='ml-auto font-medium relative'>
             <p onClick={shownav} className='lg:hidden md:hidden text-4xl font-black'><RxDragHandleHorizontal /></p>
-            {Show === false ? '' : (<div className='gap-4 md:hidden lg:hidden absolute top-8 py-1 right-1 bg-slate-200 pr-2 px-6'>
-              <p className='pb-8 underline pr-8 cursor-pointer pt-4'>About me</p>
-              <p className='pb-8 underline pr-8 cursor-pointer pt-4'>Skills</p>
-              <p className='pb-8 underline pr-8 cursor-pointer '>Work</p>
-              <p className='pb-4 underline pr-8 cursor-pointer '>Contact</p>
-            </div>)}
+            
             <div className='hidden font-semibold gap-10 md:flex lg:flex md:items-center lg:items-center py-1 right-1 '>
               <Link href="./#about"><p className='cursor-pointer hover:border-blue-500 cursor-pointer'>About me</p></Link>
               <Link href="./#skills" ><p className='cursor-pointer hover:border-blue-500 cursor-pointer'>My skills</p></Link>
@@ -48,7 +44,15 @@ const Topcomponent = () => {
               <Link href="./#contact"><button className='px-6 text-white py-2 rounded-lg text-md font-bold bg-black transition duration-300 ease-in-out transform hover:text-black hover:bg-zinc-300 hover:scale-105'>Contact</button></Link>
             </div>
           </div>
+          
         </nav>
+        {Show === true ? '' : (<div className='pl-4 h-3/4 md:hidden lg:hidden absolute top-0 w-full bg-slate-200 '>
+          <p onClick={shownav} className='pt-4 border-b-black pb-4 lg:hidden md:hidden text-4xl font-black'><IoIosCloseCircleOutline /></p>
+          <Link href="./#about"><p className='pb-4 border-b-black underline cursor-pointer'>About me</p></Link>
+          <Link href="./#skills"><p className='pb-4 border-b-black underline cursor-pointer'>Skills</p></Link>
+          <Link href="./#projects"><p className='pb-4 border-b-black underline cursor-pointer'>Work</p></Link>
+          <Link href="./#contact"><p className='pb-4 border-b-black underline cursor-pointer'>Contact</p></Link>
+            </div>)}
       </div>
       {/* =======================================topsection============================================================================ */}
       <div id='about' className='TopSEction'>
