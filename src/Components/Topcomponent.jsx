@@ -46,7 +46,7 @@ const Topcomponent = () => {
           </div>
           
         </nav>
-        {Show === true ? '' : (<div className='pl-4 h-3/4 md:hidden lg:hidden absolute top-0 w-full bg-slate-200 '>
+        {Show === false ? '' : (<div className='pl-4 h-3/4 md:hidden lg:hidden absolute top-0 w-full bg-slate-200 '>
           <p onClick={shownav} className='pt-4 border-b-black pb-4 lg:hidden md:hidden text-4xl font-black'><IoIosCloseCircleOutline /></p>
           <Link href="./#about"><p className='pb-4 border-b-black underline cursor-pointer'>About me</p></Link>
           <Link href="./#skills"><p className='pb-4 border-b-black underline cursor-pointer'>Skills</p></Link>
